@@ -51,7 +51,6 @@ START_CAPTION = str(START_CAPTION)
 COMMUNITY_LINK = str(COMMUNITY_LINK)
 OWNER_LINK = 'https://t.me/'+OWNER_USERNAME
 OWNER_LINK = str(OWNER_LINK)
-AUCTION_CHANNEL_LINK = str(AUCTION_CHANNEL_LINK)
 AUCTION_GROUP_LINK = str(AUCTION_GROUP_LINK)
 dxgays = ENEMY_LIST
 xmods = APPROVE_LIST
@@ -112,7 +111,6 @@ async def submitcb(event):
         buttons=[
         [
             Button.url('AUCTION', AUCTION_GROUP_LINK),
-            Button.url('CHANNEL', AUCTION_CHANNEL_LINK)
         ],
         [
             Button.url('OWNER', OWNER_LINK),
